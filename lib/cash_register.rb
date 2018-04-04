@@ -12,6 +12,7 @@ class CashRegister
         self.items << [title] * quantity
         self.items = self.items.flatten
         self.total += price * quantity
+        self.last_transaction = price * quantity
     end
 
 

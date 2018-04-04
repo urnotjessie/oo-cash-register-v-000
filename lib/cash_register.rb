@@ -13,8 +13,6 @@ class CashRegister
         self.total += price * quantity
     end
 
-    def items
-        self.items.flatten
     end
 
     def apply_discount

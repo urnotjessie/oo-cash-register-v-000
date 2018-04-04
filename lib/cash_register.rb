@@ -13,6 +13,9 @@ class CashRegister
         self.total += price * quantity
     end
 
+    def items
+        self.items.flatten
+
     def apply_discount
         if @discount != 0
             self.total = self.total * (1 - self.discount * 0.01)

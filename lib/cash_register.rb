@@ -14,7 +14,6 @@ class CashRegister
         self.total += price * quantity
     end
 
-    end
 
     def apply_discount
         if @discount != 0

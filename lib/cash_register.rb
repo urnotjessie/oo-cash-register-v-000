@@ -15,6 +15,7 @@ class CashRegister
 
     def items
         self.items.flatten
+    end
 
     def apply_discount
         if @discount != 0

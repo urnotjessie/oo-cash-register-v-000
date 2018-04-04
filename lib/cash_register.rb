@@ -1,3 +1,3 @@
 class CashRegister
-    
-    attr_accessor :new
+
+    attr_accessor :total
